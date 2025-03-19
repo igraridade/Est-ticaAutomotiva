@@ -1,0 +1,90 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar {
+    font-size: x-large;
+    margin-top: 4rem;
+    margin-left: 28rem;
+}
+
+.link {
+    margin-right: 1.5rem;
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    word-spacing: 10px;
+}
+
+.lado-esquerdo {
+    display: inline-block;
+    margin-top: 4rem;
+    margin-left: 20rem;
+}
+
+.lado-direito {
+    display: inline-block;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    width: 45rem;
+}
+
+.titulo {
+    line-height: 2rem;
+    font-size: xx-large;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.subtitulo {
+    margin-bottom: 3rem;
+    font-size: xx-large;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img-le {
+    display: inline-block;
+}
+
+.texto2 {
+    font-size: x-large;
+    margin-bottom: 2rem;
+}
+
+.botao {
+    border: solid 1px blue;
+    border-radius: 20px;
+    color: blue;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    font-size: large;
+}
+
+
+.botao:hover {
+    background-color: blue;
+    color: white;
+    transform: scale(1.2)
+}
+
+.botao2 {
+    border: solid 1px blue;
+    border-radius: 20px;
+    color: blue;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    font-size: medium;
+}
+
+
+.botao2:hover {
+    background-color: blue;
+    color: white;
+    transform: scale(1.2)
+}
