@@ -1,11 +1,25 @@
 const title = document.getElementById("titulo");
 
-console.log(title);
+title.textContent = "Nós cuidamos";
 
-const button = document.querySelectorAll(".botao");
+title.style.color = "red";
 
-console.log(button);
+title.style.fontSize = ("30px");
 
-const links = document.getElementsByClassName("link");
+//console.log(title);
 
-console.log(links);
+
+const button = document.getElementById("login");
+
+button.addEventListener("click", clicar);
+let nome = "Igor";
+
+function clicar(){
+    title.textContent = `Seja bem-vindo, ${nome}!`;
+    title.style.color = "red";
+    title.style.fontSize = ("30px");
+}
+
+//console.log(button);
+//const links = document.getElementsByClassName("link");
+//console.log(links);
