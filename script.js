@@ -2,7 +2,7 @@ const title = document.getElementById("titulo");
 
 console.log(title);
 
-const button = document.querySelectorAll("botao");
+const button = document.querySelectorAll(".botao");
 
 console.log(button);
 
